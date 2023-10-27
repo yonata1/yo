@@ -1,1 +1,1 @@
-print("interculturality")
+print('i')
