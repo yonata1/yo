@@ -1,3 +1,2 @@
-thisList = ["abc", 34, True, 40, "male"]
-print(thisList)
-print("The lenght of thisList:", len(thisList))
+name= input("Enter your name: ")
+print("Your name is, "+name)
