@@ -1,4 +1,4 @@
-def displayName():
-    name= str(input("What is your name?"))
-    print(name)
-displayName()
+def addNumbers(x,y):
+    sum_result=x+y
+    print(sum_result)
+addNumbers(5,52)
