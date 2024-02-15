@@ -1,9 +1,10 @@
-def main():
-    x=int(input())
-    M=int(input())
-    for n in range(1,M):
-        if(x*n)%M==1:
-            return n
-        else:
-            return"int not exist"
-print(ain())
+while True:
+    inp = input()
+    if inp == "quit!":
+        break
+    
+    l = len(inp)
+    if l > 4 and inp[-1] == 'r' and inp[-2] == 'o' and inp[-3] not in ['a', 'e', 'i', 'o', 'u', 'y']:
+        print(inp[:-2] + "or")
+    else:
+        print(inp)
